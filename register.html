@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <center>
+      <h1>ONLINE CERTIFICATION</h1>
+      <h2>REGISTER</h2>
+      <table width="100%">
+        <tbody>
+          <tr>
+            <td>
+              <form action="/submit_registration" method="post">
+                <table align="center" width="80%" bgcolor="#9ca2c4">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table align="center" width="40%">
+                          <tbody>
+                            <tr>
+                              <br />
+                            </tr>
+                            <tr>
+                              <td>
+                                <input
+                                  type="text"
+                                  placeholder="First Name"
+                                  required
+                                />
+                              </td>
+                              <td>
+                                <input
+                                  type="text"
+                                  placeholder="Last Name"
+                                  required
+                                />
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <input type="tel" placeholder="Phone No." />
+                              </td>
+                              <td>
+                                <input
+                                  type="email"
+                                  placeholder="Email"
+                                  required
+                                />
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <input
+                                  type="password"
+                                  placeholder="Enter a Password"
+                                  required
+                                />
+                              </td>
+                              <td>
+                                <input
+                                  type="password"
+                                  placeholder="Confirm Password"
+                                  required
+                                />
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <label>DOB:</label>
+                              </td>
+                              <td><input type="date" /></td>
+                            </tr>
+                            <tr>
+                              <td>Gender:</td>
+                              <td>
+                                <input
+                                  type="radio"
+                                  name="Gender"
+                                  value="Male"
+                                />Male
+                                <input
+                                  type="radio"
+                                  name="Gender"
+                                  value="Male"
+                                />Female
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><input type="text" placeholder="City" /></td>
+                              <td>
+                                <input type="text" placeholder="Country" />
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <select name="Domain" id="domain">
+                                  <option value="" disabled selected hidden>
+                                    Domain
+                                  </option>
+                                  <option value="Cybersecurity">
+                                    Cybersecurity
+                                  </option>
+                                  <option value="AI">
+                                    Artificial Intelligence
+                                  </option>
+                                  <option value="ML">Machine Learning</option>
+                                  <option value="Programming">
+                                    Programming
+                                  </option>
+                                  <option value="ECE">ECE</option>
+                                </select>
+                              </td>
+                              <td>
+                                <select name="Duration" id="duration">
+                                  <option value="" disabled selected hidden>
+                                    Duration
+                                  </option>
+                                  <option value="Cybersecurity">4 Weeks</option>
+                                  <option value="AI">12 Weeks</option>
+                                  <option value="ML">4 Months</option>
+                                  <option value="Programming">6 Months</option>
+                                  <option value="ECE">9 Months</option>
+                                </select>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td colspan="2" align="center">
+                                <button type="submit">Register</button>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <br />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </form>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+  </body>
+</html>
