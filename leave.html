@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leave Form</title>
+  </head>
+  <body>
+    <h2 align="center">Leave Form</h2>
+    <table width="100%">
+      <tbody>
+        <tr>
+          <td>
+            <table width="80%" bgcolor="#dddfc1" align="center">
+              <tbody>
+                <tr>
+                  <td>
+                    <form action="/submit_registration" method="get">
+                      <table width="50%" align="center">
+                        <tbody>
+                          <tr>
+                            <td><br /></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label for="leave-type">Leave type:</label>
+                              <select name="leave-type" id="leave-type">
+                                <option value="" disabled selected hidden>
+                                  Leave-Type
+                                </option>
+                                <option value="On Duty">On Duty</option>
+                                <option value="Leave">Leave</option>
+                                <option value="Medical Leave">
+                                  Medical Leave
+                                </option>
+                              </select>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label
+                                for="from-date"
+                                id="fromdate"
+                                name="From-date"
+                                >From date:</label
+                              >
+                              <input type="date" />
+                            </td>
+                            <td>
+                              <label for="to-date" id="todate" name="To-date"
+                                >To date:</label
+                              >
+                              <input type="date" />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label
+                                ><input
+                                  type="radio"
+                                  class="radio"
+                                  value="1"
+                                  name="slot"
+                                />Half-day</label
+                              >
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label>
+                                <input
+                                  type="radio"
+                                  class="radio"
+                                  value="1"
+                                  name="slot"
+                                />Period-wise</label
+                              >
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label for="ReasonForAbsence"
+                                >Reason for absence:</label
+                              ><textarea
+                                name="Reason"
+                                rows="6"
+                                cols="40"
+                                id="reason"
+                                placeholder="Reason for absence"
+                              ></textarea>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label for="sttachment">Attachment:</label
+                              ><input type="file" name="Attachment" />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" align="center">
+                              <input type="reset" value="Reset" />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" colspan="2">
+                              <input type="submit" value="Apply" />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center" colspan="2">
+                              <input type="submit" value="Cancel" />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><br /></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </form>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

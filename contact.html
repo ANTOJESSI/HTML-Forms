@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <h2 align="center">Emergency Contact Form</h2>
+    <table width="100%">
+      <tbody>
+        <tr>
+          <td>
+            <table width="80%" align="center" bgcolor="#d5e1df">
+              <tbody>
+                <tr>
+                  <td>
+                    <form method="post">
+                      <table width="50%" align="center">
+                        <tbody>
+                          <tr>
+                            <td><br /></td>
+                          </tr>
+                          <tr>
+                            <td>Guardian Details for Emergency Contact:</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <input
+                                type="text"
+                                placeholder="First Name"
+                                required
+                              />
+                            </td>
+                            <td>
+                              <input
+                                type="text"
+                                placeholder="Last Name"
+                                required
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <input
+                                type="tel"
+                                placeholder="Phone No."
+                                required
+                              />
+                            </td>
+                            <td>
+                              <input
+                                type="tel"
+                                placeholder="Alternative Ph No."
+                                required
+                              />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Patient Name:</td>
+                            <td>
+                              <input type="text" placeholder="Name" required />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Relationship with Patient</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label
+                                ><input
+                                  type="radio"
+                                  name="relation"
+                                  required
+                                />Parent</label
+                              >
+                            </td>
+                            <td>
+                              <label
+                                ><input type="radio" name="relation" />
+                                Friend</label
+                              >
+                            </td>
+                            <td>
+                              <label
+                                ><input
+                                  type="radio"
+                                  name="relation"
+                                />Child</label
+                              >
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label
+                                ><input
+                                  type="radio"
+                                  name="relation"
+                                />Sibling</label
+                              >
+                            </td>
+                            <td>
+                              <label
+                                ><input
+                                  type="radio"
+                                  name="relation"
+                                />Spouse</label
+                              >
+                            </td>
+                            <td>
+                              <label
+                                ><input
+                                  type="radio"
+                                  name="relation"
+                                />Other</label
+                              >
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Patient Address:</td>
+                          </tr>
+                          <tr>
+                            <td colspan="3">
+                              <textarea
+                                name="Address"
+                                id="address"
+                                cols="40"
+                                rows="5"
+                                placeholder="Address of the patient"
+                                required
+                              ></textarea>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Guardian Address:</td>
+                          </tr>
+                          <tr>
+                            <td colspan="3">
+                              <textarea
+                                name="Address"
+                                id="address"
+                                cols="40"
+                                rows="5"
+                                placeholder="Address of the Guardian"
+                                required
+                              ></textarea>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Date:</td>
+                            <td><input type="date" required /></td>
+                          </tr>
+                          <tr>
+                            <td><br /></td>
+                          </tr>
+                          <tr>
+                            <td colspan="3" align="center">
+                              <input type="submit" />
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><br /></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </form>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
